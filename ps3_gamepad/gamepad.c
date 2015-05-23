@@ -51,6 +51,8 @@
 #include "snes.h"
 #elif defined(SATURN)
 #include "saturn.h"
+#elif defined(FIGHTSTICK)
+#include "fightstick.h"
 #else
 #error "Undefined gamepad"
 #endif
